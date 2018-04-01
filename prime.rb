@@ -17,7 +17,7 @@ Benchmark.bmbm(7) do |bm|
     end
 end
 
-bm.report('solution') do 
+bm.report('solution') do
     def prime?(num)
   if num < 0 or num == 0 or num == 1
     return false
@@ -32,5 +32,3 @@ end
 
 
 end
-
-
